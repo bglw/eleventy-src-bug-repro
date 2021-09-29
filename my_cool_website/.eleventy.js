@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.cloudcannonOptions = {
 		dir: {
+			input: 'my_cool_website',
 			pages: 'pages'
 		}
 	};
